@@ -1,0 +1,49 @@
+.book-list-item {
+    display: flex;
+    margin: 20px 0;
+}
+
+.book-list-item .book-cover {
+    width: 120px;
+    margin-right: 30px;
+}
+
+.book-list-item .book-cover img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.book-list-item .book-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.book-list-item .book-details .add-to-cart {
+    width: 140px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.book-list-item .book-details .book-title {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.book-list-item .book-details a {
+    text-transform: none;
+    text-decoration: none;
+    outline: none;
+    color: #000;
+}
+
+.book-list-item .book-details .book-author {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.book-list-item .book-details .book-price {
+    font-weight: 700;
+    font-size: 18px;
+}

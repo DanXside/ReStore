@@ -1,0 +1,44 @@
+.shop-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.shop-header .shop-logo {
+    width: 200px;
+    padding: 0;
+}
+
+.shop-header .shop-logo .logo {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-size: 30px;
+}
+
+.shop-header .shop-logo a {
+    text-decoration: none;
+}
+
+.shop-header .shop-cart {
+    width: 160px;
+}
+
+.shop-header .shop-cart a {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.shop-header .shop-cart .shop-purch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-header .shop-cart .shop-purch .shop-icon {
+    width: 25px;
+    height: 25px;
+    color: cadetblue;
+}
